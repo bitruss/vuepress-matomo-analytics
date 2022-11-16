@@ -5,8 +5,7 @@ export default ({ router }) => {
       SITE_ID && TRACKER_URL &&
       typeof window !== 'undefined') {
 
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    var _paq = window._paq || [];
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
