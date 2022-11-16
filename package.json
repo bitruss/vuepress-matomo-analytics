@@ -1,8 +1,11 @@
 {
   "name": "@bitruss/vuepress-matomo-analytics",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Matomo Analytics plugin for VuePress",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "publish": "git push origin --tags && git push origin",
     "release:major": "npm version major && npm publish",
@@ -30,9 +33,6 @@
   "homepage": "https://github.com/bitruss/vuepress-matomo-analytics",
   "bugs": {
     "url": "https://github.com/bitruss/vuepress-matomo-analytics/issues"
-  },
-  "engines": {
-    "node": ">=8"
   },
   "files": [
     "index.js",
