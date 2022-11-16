@@ -1,6 +1,6 @@
 {
-  "name": "vuepress-matomo-analytics",
-  "version": "0.0.3",
+  "name": "@bitruss/vuepress-matomo-analytics",
+  "version": "0.0.4",
   "description": "Matomo Analytics plugin for VuePress",
   "main": "index.js",
   "scripts": {
